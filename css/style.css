@@ -40,3 +40,9 @@
 
 }
 
+@media(max-width:600px){
+    .tt{
+        margin: 300px auto;
+    }
+}
+

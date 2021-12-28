@@ -7,14 +7,14 @@
 
 .aa{
     height: 100vh;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 
 
 .tt{
-    width: 600px;
-    height: 600px;
+    width: 650px;
+    height: 650px;
     /* background-color: aquamarine; */
     /* border: 1px solid red; */
     margin: auto auto;
@@ -34,15 +34,19 @@
 
 
 .t2 td{
-    width: 50px;
-    height: 50px;
+    /* width: 60px; */
+    height: 60px;
     /* border: 1px solid red; */
 
 }
 
-@media(max-width:600px){
-    .tt{
-        margin: 300px auto;
-    }
+.table-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
